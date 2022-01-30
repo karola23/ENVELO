@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<HTML>
+<head>
+    <title>Zadanie rekrutacyjne</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="zadanie rekrutacyjne">
+  <meta name="keywords" content="Java script, HTML, CSS, programowanie"/>
+  <meta name="author" content="Karolina Raźniak"/>
+  <meta property="og:title" contelt="ćwiczenie programowe"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" type="text/css" media="screen" charset="utf-8" href="style-index1-krok.css">
+  <script src="index1-krok.js" defer></script>
+</head>
+<body>
+    <div class="container__wrapper">
+        <div class="title__wrapper">
+            <font color="red"><h1>ENVELO</h1></font>
+        </div>
+        <div class="description__wrapper">
+            <h3>Możesz mieć swoją przeyłkę w kilkanaście sekund.</h3>
+            <h3>Rozpocznij klikając przycisk.</h3>
+        </div>
+        <div class="button-phone__wrapper">
+            <form action="#from-message" class="from" id="fromValidate" name="fromValidate">
+                <em>kod</em>
+                <input type="kod" class="form-input" id="kod" placeholder="xx-xx" size="4" minlength="4" pattern="!/^([0-4]{4})$/" required>
+                <em>nr.tel</em>
+                <input type="tel" class="form-input" id="phone-number" placeholder="Numer telefonu" size="9" minlength="9" maxlength="9" pattern="!/^([0-9]{9})$/" required>
+            </form>
+            <!--<form action="#form-message" class="form" id="formValidate" name="formValidate"> 
+            </form>-->
+            <br>
+        </div> 
+        <div class="button-pick-up_wrapper">
+            <button><h3>Odbierz paczkę</h3></button>
+        </div>
+    </div>
+</body>
+
+</HTML>
